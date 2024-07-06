@@ -1,0 +1,38 @@
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  width: 200px;
+  border-radius: 5px;
+}
+
+.add {
+  background: rgb(0, 157, 255);
+  border-radius: 3px;
+  border: none;
+  padding: 3px 20px;
+}
+
+li {
+  width: 50%;
+  list-style: none;
+  padding: 5px 0;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  padding: 0 10px;
+  font-family: sans-serif;
+}
+
+li span {
+  width: 80%;
+  font-size: 10px;
+}
